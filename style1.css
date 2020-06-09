@@ -1,0 +1,64 @@
+.bgcolor
+	{
+		background: linear-gradient(to right, #0066ff 0%, #66ccff 100%)
+	}
+
+.split
+{
+	float: left;
+}
+
+.left {
+  left: 50%;
+  width: 50%;
+}
+
+
+.right {
+  right: 0%;
+  width:45%;
+  margin-left: 0px;
+}
+
+.img
+{
+	border-radius: 50%;
+}
+
+hr.new1 {
+  border-top: 2px solid #0066ff;
+}
+
+
+div.vertical-line
+{
+  width: 2px; /* Line width */
+  background-color: #0066ff; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. 
+        You can instead use position:absolute or display:inline-block
+        if this fits better with your design */
+}
+
+.leftmargin
+{
+	margin-left: 15px
+}
+
+.zoom {
+  transition: transform .5s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+.sd
+{
+	text-shadow: 1px 1px 0px #000000;
+}
+
+.sdi
+{
+  box-shadow: 1px 1px 20px #000000;
+}
